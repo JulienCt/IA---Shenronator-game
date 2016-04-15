@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		068D5894602D1DBE64C9BF77 /* Pods_Shenronator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76140E4E5848F56269B0D308 /* Pods_Shenronator.framework */; };
+		591DB6391CC11ACC0044E7A0 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591DB6381CC11ACC0044E7A0 /* Api.swift */; };
+		591DB63D1CC131AD0044E7A0 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591DB63C1CC131AD0044E7A0 /* StartViewController.swift */; };
 		5921B4AF1CB15F7100AADDE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5921B4AE1CB15F7100AADDE6 /* AppDelegate.swift */; };
 		5921B4B11CB15F7100AADDE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5921B4B01CB15F7100AADDE6 /* ViewController.swift */; };
 		5921B4B41CB15F7100AADDE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5921B4B21CB15F7100AADDE6 /* Main.storyboard */; };
 		5921B4B61CB15F7100AADDE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5921B4B51CB15F7100AADDE6 /* Assets.xcassets */; };
 		5921B4B91CB15F7100AADDE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5921B4B71CB15F7100AADDE6 /* LaunchScreen.storyboard */; };
+		596D34411CB51943002E6922 /* Personnage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596D34401CB51943002E6922 /* Personnage.swift */; };
+		596D34431CB661DA002E6922 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596D34421CB661DA002E6922 /* Question.swift */; };
+		596D34491CB7A097002E6922 /* UiViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596D34481CB7A097002E6922 /* UiViewExtension.swift */; };
+		596D344D1CB7A260002E6922 /* porunga.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 596D344C1CB7A260002E6922 /* porunga.jpg */; };
+		59923EEC1CBFECEC001545EC /* Reponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59923EEB1CBFECEC001545EC /* Reponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1757153C784D58CDE75C4703 /* Pods-Shenronator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shenronator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shenronator/Pods-Shenronator.release.xcconfig"; sourceTree = "<group>"; };
+		3162F5379A6B6D99975AC68F /* Pods-Shenronator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shenronator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shenronator/Pods-Shenronator.debug.xcconfig"; sourceTree = "<group>"; };
+		591DB6381CC11ACC0044E7A0 /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		591DB63C1CC131AD0044E7A0 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		5921B4AB1CB15F7100AADDE6 /* Shenronator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shenronator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5921B4AE1CB15F7100AADDE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5921B4B01CB15F7100AADDE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,12 @@
 		5921B4B51CB15F7100AADDE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5921B4B81CB15F7100AADDE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5921B4BA1CB15F7100AADDE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		596D34401CB51943002E6922 /* Personnage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Personnage.swift; sourceTree = "<group>"; };
+		596D34421CB661DA002E6922 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		596D34481CB7A097002E6922 /* UiViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UiViewExtension.swift; sourceTree = "<group>"; };
+		596D344C1CB7A260002E6922 /* porunga.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = porunga.jpg; sourceTree = "<group>"; };
+		59923EEB1CBFECEC001545EC /* Reponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reponse.swift; sourceTree = "<group>"; };
+		76140E4E5848F56269B0D308 /* Pods_Shenronator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shenronator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				068D5894602D1DBE64C9BF77 /* Pods_Shenronator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F1AC06F9C1372BD2576C8D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3162F5379A6B6D99975AC68F /* Pods-Shenronator.debug.xcconfig */,
+				1757153C784D58CDE75C4703 /* Pods-Shenronator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		591DB6371CC11A990044E7A0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				591DB6381CC11ACC0044E7A0 /* Api.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 		5921B4A21CB15F7100AADDE6 = {
 			isa = PBXGroup;
 			children = (
 				5921B4AD1CB15F7100AADDE6 /* Shenronator */,
 				5921B4AC1CB15F7100AADDE6 /* Products */,
+				0F1AC06F9C1372BD2576C8D0 /* Pods */,
+				DA4374C09C0F55513B79D464 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +92,61 @@
 		5921B4AD1CB15F7100AADDE6 /* Shenronator */ = {
 			isa = PBXGroup;
 			children = (
+				591DB6371CC11A990044E7A0 /* Utils */,
+				59923EED1CBFF868001545EC /* Core */,
+				596D34471CB7A03C002E6922 /* Extension */,
+				596D34441CB79CA2002E6922 /* Images */,
+				596D343F1CB5179C002E6922 /* Model */,
 				5921B4AE1CB15F7100AADDE6 /* AppDelegate.swift */,
 				5921B4B01CB15F7100AADDE6 /* ViewController.swift */,
 				5921B4B21CB15F7100AADDE6 /* Main.storyboard */,
 				5921B4B51CB15F7100AADDE6 /* Assets.xcassets */,
 				5921B4B71CB15F7100AADDE6 /* LaunchScreen.storyboard */,
 				5921B4BA1CB15F7100AADDE6 /* Info.plist */,
+				591DB63C1CC131AD0044E7A0 /* StartViewController.swift */,
 			);
 			path = Shenronator;
+			sourceTree = "<group>";
+		};
+		596D343F1CB5179C002E6922 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				596D34401CB51943002E6922 /* Personnage.swift */,
+				596D34421CB661DA002E6922 /* Question.swift */,
+				59923EEB1CBFECEC001545EC /* Reponse.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		596D34441CB79CA2002E6922 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				596D344C1CB7A260002E6922 /* porunga.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		596D34471CB7A03C002E6922 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				596D34481CB7A097002E6922 /* UiViewExtension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		59923EED1CBFF868001545EC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		DA4374C09C0F55513B79D464 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76140E4E5848F56269B0D308 /* Pods_Shenronator.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5921B4BD1CB15F7100AADDE6 /* Build configuration list for PBXNativeTarget "Shenronator" */;
 			buildPhases = (
+				C1824ACF8073F05B1230F188 /* Check Pods Manifest.lock */,
 				5921B4A71CB15F7100AADDE6 /* Sources */,
 				5921B4A81CB15F7100AADDE6 /* Frameworks */,
 				5921B4A91CB15F7100AADDE6 /* Resources */,
+				77BB2E4C0D76DB8E5CB53B93 /* Embed Pods Frameworks */,
+				95211E5B7FF7B127A3E5BF7C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +184,12 @@
 				TargetAttributes = {
 					5921B4AA1CB15F7100AADDE6 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7XK5875A63;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -124,19 +218,74 @@
 			files = (
 				5921B4B91CB15F7100AADDE6 /* LaunchScreen.storyboard in Resources */,
 				5921B4B61CB15F7100AADDE6 /* Assets.xcassets in Resources */,
+				596D344D1CB7A260002E6922 /* porunga.jpg in Resources */,
 				5921B4B41CB15F7100AADDE6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		77BB2E4C0D76DB8E5CB53B93 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shenronator/Pods-Shenronator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95211E5B7FF7B127A3E5BF7C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shenronator/Pods-Shenronator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1824ACF8073F05B1230F188 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5921B4A71CB15F7100AADDE6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59923EEC1CBFECEC001545EC /* Reponse.swift in Sources */,
+				591DB63D1CC131AD0044E7A0 /* StartViewController.swift in Sources */,
 				5921B4B11CB15F7100AADDE6 /* ViewController.swift in Sources */,
+				596D34431CB661DA002E6922 /* Question.swift in Sources */,
+				596D34411CB51943002E6922 /* Personnage.swift in Sources */,
 				5921B4AF1CB15F7100AADDE6 /* AppDelegate.swift in Sources */,
+				591DB6391CC11ACC0044E7A0 /* Api.swift in Sources */,
+				596D34491CB7A097002E6922 /* UiViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,8 +396,10 @@
 		};
 		5921B4BE1CB15F7100AADDE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3162F5379A6B6D99975AC68F /* Pods-Shenronator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Shenronator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JulienCt.Shenronator;
@@ -258,8 +409,10 @@
 		};
 		5921B4BF1CB15F7100AADDE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1757153C784D58CDE75C4703 /* Pods-Shenronator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Shenronator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JulienCt.Shenronator;
@@ -286,6 +439,7 @@
 				5921B4BF1CB15F7100AADDE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

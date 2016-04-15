@@ -30,6 +30,20 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>http://www.learnswiftonline.com</key>
+			<string></string>
+			<key>http://192.168.206.1:4242</key>
+			<string></string>
+		</dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
